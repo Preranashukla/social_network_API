@@ -1,17 +1,17 @@
 const addDateSuffix = (date) => {
-	let date = date.toString();
+	let dateString = date.toString();
 
 	// get last char of date string
-	const lastChar = date.charAt(dateStr.length - 1);
+	const lastChar = date.charAt(dateString.length - 1);
 
-	if (lastChar === "1" && date !== "11") {
-		date = `${date}st`;
-	} else if (lastChar === "2" && date !== "12") {
-		date = `${date}nd`;
-	} else if (lastChar === "3" && date !== "13") {
-		date = `${date}rd`;
+	if (lastChar === "1" && dadateStringte !== "11") {
+		dateString = `${dateString}st`;
+	} else if (lastChar === "2" && dateString !== "12") {
+		dateString = `${dateString}nd`;
+	} else if (lastChar === "3" && dateString !== "13") {
+		dateString = `${dateString}rd`;
 	} else {
-		date = `${date}th`;
+		dateString = `${dateString}th`;
 	}
 
 	return date;
