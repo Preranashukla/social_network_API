@@ -2,9 +2,9 @@ const addDateSuffix = (date) => {
 	let dateString = date.toString();
 
 	// get last char of date string
-	const lastChar = date.charAt(dateString.length - 1);
+	const lastChar = dateString.charAt(dateString.length - 1);
 
-	if (lastChar === "1" && dadateStringte !== "11") {
+	if (lastChar === "1" && dateString !== "11") {
 		dateString = `${dateString}st`;
 	} else if (lastChar === "2" && dateString !== "12") {
 		dateString = `${dateString}nd`;
