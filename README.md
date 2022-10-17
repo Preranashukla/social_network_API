@@ -7,4 +7,4 @@ The various API routes were tested using Insomnia Core.
 
 
 ## Walkthrough Video
-There walkthrough video can be found [here](https://drive.google.com/file/d/1EFwtbezbfTrEde2uVKi_eXZDmR-KHaL1/view).
+There walkthrough video can be found [here](https://drive.google.com/file/d/115iX3peD702T8juXcsHbo2lNnwLC_6oL/view).
